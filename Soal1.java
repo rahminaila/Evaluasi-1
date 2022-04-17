@@ -19,7 +19,7 @@ public class Soal1 {
 			
 		}
 				System.out.print(a+"  ");
-				a = a + 3;
+				a = a + 5;
 		}
 	}
 	public void deretGanjil2() {
@@ -28,7 +28,7 @@ public class Soal1 {
 				continue;
 			}
 			System.out.print(a+"  ");
-			a = a + 3;
+			a = a + 5;
 		}
 		
 	}
