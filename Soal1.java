@@ -3,6 +3,7 @@ package bcgen9.day12;
 import java.util.Scanner;
 
 public class Soal1 {
+	int a = 1;
 	Scanner s=new Scanner(System.in);
 	int n;
 	public int getN() {
@@ -17,7 +18,8 @@ public class Soal1 {
 				continue;
 			
 		}
-				System.out.print(i+"  ");
+				System.out.print(a+"  ");
+				a = a + 3;
 		}
 	}
 	public void deretGanjil2() {
@@ -25,7 +27,8 @@ public class Soal1 {
 			if(i%2 == 0) {
 				continue;
 			}
-			System.out.print(i+"  ");
+			System.out.print(a+"  ");
+			a = a + 3;
 		}
 		
 	}
